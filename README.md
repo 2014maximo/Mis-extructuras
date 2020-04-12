@@ -1,5 +1,5 @@
 # Mis-extructuras
-Elementos para reutilizar
+Elementos para reutilizar, extructuras que comforman la web y que suelo necesitar tener un diseño a la mano y que pueda servirle a alguien también.
 
-## Frameworks utilizados
-> "If it compiles, it is good, if it boots up it is perfect". - Linus Linus Torvalds
+### Frameworks utilizados
+*Bootstrap 4
