@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+
+        <!-- Owl Stylesheets -->
+        <link rel="stylesheet" href="assets/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/owl/owl.theme.default.min.css">
+    
+    
+        <!-- javascript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+        <script src="assets/owl/owl.carousel.js"></script>
+</head>
+<body>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="owl-carousel owl-theme">
+                <img src="assets/imagenes/Slider-0001.jpg" alt="" class="img-fluid">
+                <img src="assets/imagenes/Slider-0002.jpg" alt="" class="img-fluid">
+                <img src="assets/imagenes/Slider-0003.jpg" alt="" class="img-fluid">
+                <img src="assets/imagenes/Slider-0004.jpg" alt="" class="img-fluid">
+                <img src="assets/imagenes/Slider-0005.jpg" alt="" class="img-fluid">
+                <img src="assets/imagenes/Slider-0006.jpg" alt="" class="img-fluid">
+            </div>
+            
+<script src="assets/owl/owl.carousel.min.js"></script>
+<script>
+    jQuery('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    },
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+
+</script>
+    </div>
+        <a class="button secondary play">Play</a> 
+        <a class="button secondary stop">Stop</a> 
+    </div>
+
+</body>
+</html>
