@@ -4,7 +4,6 @@ function crecer() {
     div.style.width = "200px";
     var menus = document.getElementById("decrece");
     menus.style.display = 'block';
-
 }
 
 function decrecer() {
