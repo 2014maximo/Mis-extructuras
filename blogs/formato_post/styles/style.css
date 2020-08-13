@@ -25,6 +25,7 @@ ESTILOS IMPORTABLES
  --color-tres:#24a9df;
  --color-cuatro:#8bc53f;
  --color-cinco:#ed4036;
+ --color-seis: #c18de2;
  }
  .colorNegro {
    background: black;
@@ -75,23 +76,104 @@ ESTILOS IMPORTABLES
   background-color: #2f2f2f;
   font-family: var(--fuente-tres);
 }
+.marcodigo pre {
+  font-family: var(--fuente-tres);
+  font-size: 16px;
+  font-weight: 600;
+}
 .marcodigo h2 {
   background-color: #2f2f2f;
-  color: #1fa2e1;
-  border-radius: 6px 6px 0 0;
-  width: 59px;
-  position: relative;
-  bottom: 14px;
-  right: 13px;
-  text-align: center;
-  transform: rotate(-30deg);
-  font-size: 16px;
+    color: #1fa2e1;
+    border-radius: 6px 6px 0 0;
+    width: 59px;
+    position: relative;
+    bottom: 14px;
+    right: 13px;
+    text-align: center;
+    transform: rotate(-30deg);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 10px;
  }
- .t1{
-   color: #ffc107 !important
- }
-
+.t1 {
+  color: var(--color-uno)
+}
+.t2{
+  color: var(--color-dos)
+}
+.t3{
+  color: var(--color-tres)
+}
+.t4{
+  color: var(--color-cuatro)
+}
+.t5{
+  color: var(--color-cinco)
+}
+.t6{
+  color: var(--color-seis)
+}
 
  /* ------------------------------------
  ESTILOS IMPORTABLES
  */
+
+/*  MODELO TABS */
+.tabCode {
+  background: transparent;
+}
+.tab-1 {
+    background-color: #2f2f2f;
+    color: #1fa2e1;
+    border-radius: 6px 6px 0 0;
+    width: 60px;
+    position: relative;
+    bottom: 14px;
+    right: 13px;
+    text-align: center;
+    transform: rotate(-30deg);
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 10px;
+    font-family: var(--fuente-tres);
+}
+.tab-2 {
+    position: relative;
+    bottom: 30px;
+    background-color: #2f2f2f;
+    color: #1fa2e1;
+    border-radius: 6px 6px 0 0;
+    width: 60px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 10px;
+    font-family: var(--fuente-tres);
+}
+.tab-3  {
+  position: relative;
+  bottom: 30px;
+  position: relative;
+  bottom: 30px;
+  background-color: #2f2f2f;
+  color: #1fa2e1;
+  border-radius: 6px 6px 0 0;
+  width: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 3px;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-bottom: 10px;
+  font-family: var(--fuente-tres);
+}
