@@ -123,7 +123,7 @@ ESTILOS IMPORTABLES
 
 /*  MODELO TABS */
 .tabCode {
-  background: transparent;
+  background-color: #2f2f2f;
 }
 .tab-1 {
   background-color: #2f2f2f;
@@ -190,5 +190,11 @@ ESTILOS IMPORTABLES
   display: none;
 }
 #css-3{
+  display: none;
+}
+#css-content{
+  display: none;
+}
+#js-content{
   display: none;
 }

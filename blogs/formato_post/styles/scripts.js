@@ -8,6 +8,8 @@ function validarTab( bloque ) {
         referencia.style.display = 'none';
         let referenciaDos = document.getElementById("html-1");
         referenciaDos.style.display = 'none';
+        let referenciaTabUno = document.getElementById('html-content');
+        referenciaTabUno.style.display = 'none';
         let referenciaTres = document.getElementById('css-1');
         referenciaTres.style.display = 'block';
         let referenciaCuatro = document.getElementById('html-2');
