@@ -68,5 +68,71 @@ function validarTab( bloque ) {
         let referenciaCuatro = document.getElementById('js-2');
         referenciaCuatro.style.display = 'block';
 
+    } else if( ( this.global === 'css' ) && ( bloque === 'js-2' ) ){
+        this.global = 'js';
+        let referencia = document.getElementById("css-1");
+        referencia.style.display = 'none';
+        let referenciaDos = document.getElementById('js-1');
+        referenciaDos.style.display = 'block';
+        let referenciaTres = document.getElementById('js-2');
+        referenciaTres.style.display = 'none';
+        let referenciaCuatro = document.getElementById('css-2');
+        referenciaCuatro.style.display = 'block';
+
+    } else if( ( this.global === 'js' ) && ( bloque === 'css-3' ) ){
+        this.global = 'css';
+        let referencia = document.getElementById("js-1");
+        referencia.style.display = 'none';
+        let referenciaDos = document.getElementById('css-1');
+        referenciaDos.style.display = 'block';
+        let referenciaTres = document.getElementById('css-3');
+        referenciaTres.style.display = 'none';
+        let referenciaCuatro = document.getElementById('js-3');
+        referenciaCuatro.style.display = 'block';
+
+    } else if( ( this.global === 'js' ) && ( bloque === 'html-3' ) ){
+        this.global = 'html';
+        let referencia = document.getElementById("js-1");
+        referencia.style.display = 'none';
+        let referenciaDos = document.getElementById('html-1');
+        referenciaDos.style.display = 'block';
+        let referenciaTres = document.getElementById('html-3');
+        referenciaTres.style.display = 'none';
+        let referenciaCuatro = document.getElementById('js-3');
+        referenciaCuatro.style.display = 'block';
+
+    } else if( ( this.global === 'css' ) && ( bloque === 'html-3' ) ){
+        this.global = 'html';
+        let referencia = document.getElementById("css-1");
+        referencia.style.display = 'none';
+        let referenciaDos = document.getElementById('html-1');
+        referenciaDos.style.display = 'block';
+        let referenciaTres = document.getElementById('html-3');
+        referenciaTres.style.display = 'none';
+        let referenciaCuatro = document.getElementById('css-3');
+        referenciaCuatro.style.display = 'block';
+
+    } else if( ( this.global === 'html' ) && ( bloque === 'js-2' ) ){
+        this.global = 'js';
+        let referencia = document.getElementById("html-1");
+        referencia.style.display = 'none';
+        let referenciaDos = document.getElementById('js-1');
+        referenciaDos.style.display = 'block';
+        let referenciaTres = document.getElementById('js-2');
+        referenciaTres.style.display = 'none';
+        let referenciaCuatro = document.getElementById('html-2');
+        referenciaCuatro.style.display = 'block';
+
+    } else if( ( this.global === 'html' ) && ( bloque === 'css-3' ) ){
+        this.global = 'css';
+        let referencia = document.getElementById("html-1");
+        referencia.style.display = 'none';
+        let referenciaDos = document.getElementById('css-1');
+        referenciaDos.style.display = 'block';
+        let referenciaTres = document.getElementById('css-3');
+        referenciaTres.style.display = 'none';
+        let referenciaCuatro = document.getElementById('html-3');
+        referenciaCuatro.style.display = 'block';
+
     }
 }
