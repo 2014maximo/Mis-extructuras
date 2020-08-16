@@ -26,6 +26,10 @@ ESTILOS IMPORTABLES
  --color-cuatro:#8bc53f;
  --color-cinco:#ed4036;
  --color-seis: #c18de2;
+ --color-dark-uno: #2a2d3e;
+ --color-dark-dos: #002451;
+ --color-dark-tres:#3a0000;
+
  }
  .colorNegro {
    background: black;
@@ -197,4 +201,7 @@ ESTILOS IMPORTABLES
 }
 #js-content{
   display: none;
+}
+.tab-1, .tabCode, #html-content{
+  background-color: var(--color-dark-dos);
 }
