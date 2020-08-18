@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 @font-face {
-    font-family: 'Open Mono';
+    font-family: 'OperatorMono';
     src: url(OperatorMono-Light.otf);
 }
 /* 
@@ -18,7 +18,7 @@ ESTILOS IMPORTABLES
  :root {
  --fuente-uno: 'Open Sans', sans-serif;
  --fuente-dos: 'Open Sans Condensed', sans-serif;
- --fuente-tres: 'Open Mono';
+ --fuente-tres: 'OperatorMono';
  --fuente-cuatro: 'Alex Brush', cursive;
  --color-uno: #f6921e;
  --color-dos:#262626;
@@ -26,10 +26,10 @@ ESTILOS IMPORTABLES
  --color-cuatro:#8bc53f;
  --color-cinco:#ed4036;
  --color-seis: #c18de2;
+ --color-siete: #c3c1cf;
  --color-dark-uno: #2a2d3e;
  --color-dark-dos: #002451;
  --color-dark-tres:#3a0000;
-
  }
  .colorNegro {
    background: black;
@@ -103,31 +103,36 @@ ESTILOS IMPORTABLES
     padding-bottom: 10px;
  }
 .t1 {
-  color: var(--color-uno)
+  color: var(--color-uno) /* NARANJA */
 }
 .t2{
-  color: var(--color-dos)
+  color: var(--color-dos) /* NEGRO */
 }
 .t3{
-  color: var(--color-tres)
+  color: var(--color-tres) /* AZUL CLARO */
 }
 .t4{
-  color: var(--color-cuatro)
+  color: var(--color-cuatro) /* VERDE CLARO */
 }
 .t5{
-  color: var(--color-cinco)
+  color: var(--color-cinco) /* ROJO */
 }
 .t6{
-  color: var(--color-seis)
+  color: var(--color-seis) /* VIOLETA */
 }
-
+.t7{
+  color: yellow;
+}
+.t8{
+  color: var(--color-siete);
+}
  /* ------------------------------------
  ESTILOS IMPORTABLES
  */
 
 /*  MODELO TABS */
 .tabCode {
-  background-color: #2f2f2f;
+  border-radius: 0 6px 0 0;
 }
 .tab-1 {
   background-color: #2f2f2f;
@@ -137,23 +142,17 @@ ESTILOS IMPORTABLES
   transform: rotate(-30deg);
 }
 .tab-2 {
-  color: #1fa2e1;
+  color: white;
   position: relative;
   bottom: 30px;
   cursor: pointer;
 }
-.tab-2:hover {
-  background-color: black;
-}
 .tab-3  {
-  color: #1fa2e1;
+  color: white;
   position: relative;
   bottom: 30px;
   cursor: pointer;
 
-}
-.tab-3:hover {
-  background-color: black;
 }
 .tab{
   position: relative;
@@ -162,8 +161,7 @@ ESTILOS IMPORTABLES
   padding-right: 3px;
   padding-left: 3px;
   padding-bottom: 10px;
-  background-color: #2f2f2f;
-  color: #1fa2e1;
+  background-color: var(--color-dark-uno);
   border-radius: 6px 6px 0 0;
   width: 60px;
   text-align: center;
@@ -190,6 +188,9 @@ ESTILOS IMPORTABLES
 #js-2{
   display: none;
 }
+#html-content{
+  border-radius: 0 0 6px 6px;
+}
 #html-3{
   display: none;
 }
@@ -197,11 +198,36 @@ ESTILOS IMPORTABLES
   display: none;
 }
 #css-content{
+  background-color: var(--color-dark-uno);
   display: none;
 }
 #js-content{
+  background-color: var(--color-dark-uno);
   display: none;
 }
 .tab-1, .tabCode, #html-content{
-  background-color: var(--color-dark-dos);
+  background-color: var(--color-dark-uno);
+}
+.tabHtml {
+  color: var(--color-cinco);
+}
+.tabCss {
+  color: var(--color-tres);
+}
+.tabJs {
+  color: yellow;
+}
+#html-2:hover, #html-3:hover{
+  color: var(--color-cinco);
+}
+#css-2:hover, #css-3:hover{
+  color: var(--color-tres);
+}
+#js-2:hover, #js-3:hover{
+  color: yellow;
+}
+pre span {
+  font-family: var(--fuente-tres);
+  font-size: 18px;
+  font-weight: 600;
 }

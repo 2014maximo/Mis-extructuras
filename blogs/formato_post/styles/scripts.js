@@ -59,7 +59,6 @@ function validarTab( bloque ) {
         tabPrincipal.style.display = 'none';
         let tabAsignado = document.getElementById(varGlobal+'-content');
         tabAsignado.style.display = 'block';
-        tabAsignado.style.backgroundColor = consultarColor(varGlobal);
     }
 
     function consultarColor( tab ){

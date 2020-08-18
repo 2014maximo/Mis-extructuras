@@ -11,8 +11,6 @@
 <body class="mt-5">
     <!-- INICIA AREA DE FORMATO --------------------------------------------------------------------------------------------->
 
-
-
     <div class="bg-dark">
         <div class="row">
             <div class="col-md-1"></div>
@@ -39,9 +37,9 @@
 
                 <div class="tabCode d-flex">
                     <div class="tab-1 tab">
-                        <h2 id="html-1">HTML</h2>
-                        <h2 id="css-1">CSS</h2>
-                        <h2 id="js-1">JS</h2>
+                        <h2 id="html-1" class="tabHtml">HTML</h2>
+                        <h2 id="css-1" class="tabCss">CSS</h2>
+                        <h2 id="js-1" class="tabJs">JS</h2>
                     </div>
                     <div class="tab-2 mr-1 tab">
                         <h2 id="html-2" onclick="validarTab('html-2')">HTML</h2>
@@ -54,23 +52,27 @@
                         <h2 id="js-3" onclick="validarTab('js-3')">JS</h2>
                     </div>
                 </div>
-
                 <div id="html-content">
                 <pre>
     <span class="t5">&lt;</span><span class="t3">div</span> <span class="t6">class</span><span class="t3">="</span><span class="t4">formato</span><span class="t3">"</span><span class="t5">&gt;</span>
+    <span class='t3'>&lt;</span><span class='t5'>h2</span> <span class='t1'>id</span><span class='t3'>=</span><span class='t4'>"html"</span>
                 </pre>
                 </div>
                 <div id="css-content">
                     <pre>
-                        hola css
+    <span class='t1'>#js-2:hover</span><span class='t6'>,</span> <span class='t1'>#js-3:hover{</span>
+        <span class='t4'>color</span><span class='t8'>:</span> <span class='t4'>yellow</span><span class='t8'>;</span>
+    <span class='t1'>}</span>
                     </pre>
                 </div>
                 <div id="js-content">
                     <pre>
-                        hola js
+    <span class='t6'>function</span> <span class='t3'>consultarColor</span><span class='t6'>(</span> <span class='t3'>tab</span> <span class='t6'>){</span>
+        <span class='t6'>return </span><span class='t4'>'#2a2d3e'</span><span class='t8'>;</span>
+        <span class='t6'>if </span><span class='t3'>( </span><span class='t8'>tab</span> <span class='t6'>===</span> <span class='t4'>'css'</span> <span class='t3'>){</span>
+    <span class='t3'>}</span> <span class='t6'>else if </span><span class='t3'>(</span> <span class='t8'>tab</span>
                     </pre>
                 </div>
-
 
 
             </div>
