@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;900&display=swap');
+:root {
+    /* FUENTE */
+    /* --color-base: #ffc107; */
+    /* --color-base: #ddc048; */
+    /* --color-base: #0073d0; */
+    --color-base: #e34b4a;
+
+    /* LETRA */
+    --letra-base: 'Poppins';
+    }
+body {
+    margin:0;
+    font-family: var(--letra-base), sans-serif;
+}
+.img-avatar {
+    border-radius: 50%;
+    border: 15px solid;
+    object-fit: cover;
+}
+.nombre{
+    line-height: 40px;
+    font-size: 3rem;
+}
+.profesion {
+    letter-spacing: 3px;
+}
+.bloque1, .bloque2 {
+    border: 15px solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 30px;
+}
+.fondo-base {
+    background-color: var(--color-base);
+}
+.border-base {
+    border-color: var(--color-base);
+}
+.text-base {
+    color: var(--color-base);
+}
+.fw8 {
+    font-weight: 800;
+}
+.fw6 {
+    font-weight: 600;
+}
+.fs15{
+    font-size: 15px !important;
+}
+.fs13 {
+    font-size: 13px !important;
+}
+.fs25 {
+    font-size: 25px !important;
+}
+.fs30{
+    font-size: 25px !important;
+}
+.h20{
+    height: 20px;
+}
