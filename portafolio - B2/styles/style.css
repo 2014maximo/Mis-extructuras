@@ -4,8 +4,8 @@
     /* FUENTE */
     /* --color-base: #ffc107; */
     /* --color-base: #ddc048; */
-    --color-base: #0073d0;
-    /* --color-base: #e34b4a; */
+    /* --color-base: #0073d0; */
+    --color-base: #e34b4a;
 
     /* LETRA */
     --letra-base: 'Poppins';
@@ -13,6 +13,30 @@
 body {
     margin:0;
     font-family: var(--letra-base), sans-serif;
+}
+.w-10 {
+    width: 10% !important;
+}
+.w-20 {
+    width: 20% !important;
+}
+.w-30 {
+    width: 30% !important;
+}
+.w-40 {
+    width: 40% !important;
+}
+.w-60 {
+    width: 60% !important;
+}
+.w-70 {
+    width: 70% !important;
+}
+.w-80 {
+    width: 80% !important;
+}
+.w-90 {
+    width: 90% !important;
 }
 .img-avatar {
     border-radius: 50%;
@@ -42,16 +66,16 @@ body {
     color: var(--color-base) !important;
 }
 .border-base {
-    border-color: var(--color-base);
+    border-color: var(--color-base) !important;
 }
 .text-base {
     color: var(--color-base);
 }
 .fw8 {
-    font-weight: 800;
+    font-weight: 800 !important;
 }
 .fw6 {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 .fs15{
     font-size: 15px !important;
@@ -65,6 +89,9 @@ body {
 .fs30{
     font-size: 25px !important;
 }
+.fs40{
+    font-size: 40px !important;
+}
 .h20{
     height: 20px;
 }
@@ -75,7 +102,7 @@ body {
     margin-left: 30px !important;
 }
 .br-15 {
-    border-radius: 15px;
+    border-radius: 15px !important;
 }
 .pr-15 {
     padding-right: 15px !important;
