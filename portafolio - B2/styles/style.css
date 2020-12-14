@@ -77,11 +77,14 @@ body {
 .fw6 {
     font-weight: 600 !important;
 }
-.fs15{
-    font-size: 15px !important;
+.fs12 {
+    font-size: 12px !important;
 }
 .fs13 {
     font-size: 13px !important;
+}
+.fs15{
+    font-size: 15px !important;
 }
 .fs25 {
     font-size: 25px !important;
@@ -127,4 +130,8 @@ body {
 .list-experience li::marker {
     color: var(--color-base);
     font-size: 35px;
+}
+.size-icons i {
+    font-size: 12px;
+    margin-top: 5px;
 }
