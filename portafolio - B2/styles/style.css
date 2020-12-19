@@ -83,6 +83,9 @@ body {
 .fs13 {
     font-size: 13px !important;
 }
+.fs14 {
+    font-size: 14px !important;
+}
 .fs15{
     font-size: 15px !important;
 }
@@ -134,4 +137,15 @@ body {
 .size-icons i {
     font-size: 12px;
     margin-top: 5px;
+}
+
+.icon-habilidades{
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid var(--color-base);
+    justify-content: center;
+    align-items: center;
 }
