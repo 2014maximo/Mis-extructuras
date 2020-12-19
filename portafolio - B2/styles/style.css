@@ -138,3 +138,14 @@ body {
     font-size: 12px;
     margin-top: 5px;
 }
+
+.icon-habilidades{
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid var(--color-base);
+    justify-content: center;
+    align-items: center;
+}
