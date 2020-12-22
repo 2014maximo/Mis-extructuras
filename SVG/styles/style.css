@@ -39,6 +39,13 @@ body{
     pointer-events: none;
     z-index: 1;
 }
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
 svg
 {
     position: relative;
