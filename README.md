@@ -4,6 +4,8 @@ Elementos para reutilizar, extructuras de la web y que suelo necesitar, en deter
 ### Frameworks utilizados
 *Bootstrap 4
 
+## Estos ícono de readme solo funcionan en GITHUB
+
 
 People
 
