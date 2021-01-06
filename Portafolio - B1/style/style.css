@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700;800&display=swap');
+
+
+
+
+:root {
+    --fuente-uno:'Open Sans';
+    --color-uno: #ffc107!important;
+    }
+.fuente-uno {
+    font-family: var(--fuente-uno);
+    }
+.color-uno {
+    color: var(--color-uno);
+}
+.fondo-uno {
+    background-color: var(--color-uno);
+}
+
+.fondomadera{
+    background: url("fondo.jpg");
+    background-size: cover;
+}
+.miborde{
+    border-left: 3px solid var(--color-uno);
+}
