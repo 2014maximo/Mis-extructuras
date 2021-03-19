@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+.wrappers {
+    display: inline-flex;
+}
+.wrappers .icon{
+    margin: 0, 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2
+}
+.wrappers .icon span {
+    height: 60px;
+    width: 60px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center  ;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+}
+.wrappers .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+}
+.wrappers .icon .tooltips {
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 25px;
+}
