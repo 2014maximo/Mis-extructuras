@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html, body{
     display: grid;
     height: 100%;
@@ -24,7 +23,6 @@ html, body{
     z-index: 2;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
-
 }
 .wrappers .icon span {
     position: relative;
@@ -73,14 +71,11 @@ html, body{
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
     transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
-
 }
-
 .wrappers .icon:hover span,
 .wrappers .icon:hover .tooltips  {
     text-shadow: 0px -1px 0px rgba(0,0,0,0.4);
 }
-
 .wrappers .facebook:hover span,
 .wrappers .facebook:hover .tooltips, 
 .wrappers .facebook:hover .tooltips::before {
